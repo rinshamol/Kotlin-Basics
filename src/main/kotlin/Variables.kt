@@ -1,8 +1,9 @@
 package com.example
-
+//_________________________________________________
 // Kotlin has two main keywords for variables:
 // val → Immutable (cannot be reassigned once initialized).
 // var → Mutable (value can be reassigned).
+//---------------------------------------------------
 
 //Q1. Create variables for:
 // Your name (String, immutable → val)
