@@ -18,12 +18,11 @@ package com.example
 
 fun main(){
     print("Enter your Name:")
-    var name : String = readlnOrNull() ?: ""
+    val name : String = readlnOrNull() ?: ""
     print("\nEnter your Age:")
-    var age : Int = readlnOrNull()?.toInt() ?: 0
+    val age : Int = readlnOrNull()?.toInt() ?: 0
     print("Enter your City:")
-    var city : String = readlnOrNull() ?: ""
-
+    val city : String = readlnOrNull() ?: ""
     println("The Length of Name: ${name.length}")
     println("User Name : ${name.uppercase()}")
     if (city.startsWith(city[0].uppercase())){
