@@ -14,9 +14,9 @@ package com.example
 fun main(){
     val name : String = "Rinsha"
     var age : Int = 21
-    var height : Float = 159.456f
+    val height : Float = 159.456f
     print("Do you like coding:")
-    var coding : Boolean ? = readLine().toBoolean()
+    val coding : Boolean = readlnOrNull().toBoolean()
     age = 22
     println("My name is $name, I am $age years old, my height is $height, and it is $coding that I like coding.")
 
