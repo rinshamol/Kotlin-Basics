@@ -12,6 +12,24 @@ package com.example
 //}
 //init Block
 //Used for initialization when object is created.
+//Abstract Class
+//Cannot be instantiated directly.
+//Can have abstract methods (must be implemented) and concrete methods.
+//Used to define a blueprint and hide implementation.
+//Example:
+//abstract class Vehicle {
+//    abstract fun start()
+//    fun stop() = println("Stopped")
+//}
+//Data Class
+//Can be instantiated.
+//Mainly used to store data.
+//Automatically provides toString(), equals(), hashCode(), copy().
+//Can have a body with functions or properties, but optional.
+//Example:
+//data class User(val name: String, val email: String) {
+//    fun greet() = println("Hello $name!")
+//}
 //------------------------------------------------
 //Create a class User with properties:
 //name (String)
