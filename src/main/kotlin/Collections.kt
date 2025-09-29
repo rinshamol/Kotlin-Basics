@@ -65,9 +65,9 @@ fun main(){
     for ( i in 0 until   num){
         println("User ${i+1}")
         print("Enter user name : ")
-        var name = readlnOrNull() ?: ""
+        val name = readlnOrNull() ?: ""
         print("Enter user email : ")
-        var email = readlnOrNull() ?: ""
+        val email = readlnOrNull() ?: ""
         val user = Users(name, email)
         list.add(user)
         set.add(user)
